@@ -1,0 +1,19 @@
+{
+  "name": "scidigital/magento2-stripe-checkout-ux",
+  "description": "Magento 2 module that automatically selects Stripe Payments and expands the Stripe Payment Element at checkout.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "stripe/stripe-payments": ">=4.6"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Scidigital\\StripeCheckoutUx\\": ""
+    }
+  }
+}
