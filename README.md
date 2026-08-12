@@ -49,10 +49,10 @@ Add this repository as a VCS source:
 composer config repositories.scidigital-stripe-checkout-ux vcs https://github.com/unopuntozero/magento2-stripe-checkout-ux.git
 ```
 
-Install the module:
+Install the stable release:
 
 ```bash
-composer require scidigital/magento2-stripe-checkout-ux:dev-main
+composer require scidigital/magento2-stripe-checkout-ux:^1.0
 ```
 
 Then run:
